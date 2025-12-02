@@ -21,7 +21,7 @@ text/seu-projeto/
 │   ├── rastreio_publico.php
 │   └── ...
 ├── vendor/
-├── install.sql
+├── logistica_despacho_limp.sql
 └── composer.json
 
 3. Passos de Instalação
@@ -35,9 +35,9 @@ composer require dompdf/dompdf
 Passo 4: Configurar banco de dados
 
 Abra o phpMyAdmin ou terminal MySQL
-Execute o conteúdo de install.sql
+Execute o conteúdo de logistica_despacho_limp.sql
 
-sqlSOURCE /caminho/para/install.sql;
+sqlSOURCE /caminho/para/logistica_despacho_limp.sql;
 Passo 4: Configurar conexão
 Edite config/database.php com suas credenciais.
 Passo 5: Configurar e-mail (opcional)
